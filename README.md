@@ -23,7 +23,6 @@ JeevaDhara is a full-stack hospital administration web portal built using **Node
 | Backend     | Node.js, Express.js     |
 | Frontend    | HTML, CSS, JavaScript   |
 | Database    | MongoDB                 |
-| UI Routing  | go.js                   |
 
 ## 📂 Project Structure
 
