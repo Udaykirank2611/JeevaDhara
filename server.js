@@ -4,7 +4,7 @@ const path = require("path");
 const Hospital = require("./models/Hospitals");
 
 const app = express();
-
+require('dotenv').config();
 
 
 const fetch = require("node-fetch");
@@ -131,7 +131,7 @@ app.use(express.static("public"));
 // MongoDB connection
 mongoose
   .connect(
-    "mongodb+srv://hospital:EJt3lPF5TF2M8PSy@sanjeevani.y9tkshi.mongodb.net/?retryWrites=true&w=majority&appName=sanjeevani",
+    process.env.MONGO_URI,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
