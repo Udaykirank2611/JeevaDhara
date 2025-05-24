@@ -95,7 +95,9 @@ Access the portal at [http://localhost:3000](http://localhost:3000)
 
 ## 🤝 Contributors
 
-- Saketha Rama – Full Stack Developer
+- Uday Kiran – Full Stack Developer
+- Pranavi – Full Stack Developer
+- Sharanya – Full Stack Developer
 
 ## 📄 License
 
